@@ -101,7 +101,7 @@
   margin: 0 0 20px;
 }
 
-#new-task {
+.task.input-text {
   width: 318px;
 }
 
