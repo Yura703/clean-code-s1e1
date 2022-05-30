@@ -162,11 +162,11 @@
   display: none;
 }
 
-.item .editMode .item__input-text {
+.item .item_edit-mode .item__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.item .editMode .item__label {
+.item .item_edit-mode .item__label {
   display: none;
 }
