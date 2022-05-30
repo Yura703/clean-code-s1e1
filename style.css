@@ -20,12 +20,6 @@
   font-family: Fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  .header {
-    text-align: center;
-  }
-}
-
 .main {
   display: block;
   width: 500px;
@@ -169,4 +163,10 @@
 
 .item .item_edit-mode .item__label {
   display: none;
+}
+
+@media (max-width:768px) {
+  .header {
+    text-align: center;
+  }
 }
