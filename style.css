@@ -126,7 +126,7 @@
   margin: 0 10px;
 }
 
-.item > .item__label {
+.item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -154,16 +154,16 @@
 }
 
 /* Edit Task */
-.item .input-text {
+.completed-tasks .item__input-text {
   display: none;
 }
 
-.item .item_edit-mode .item__input-text {
+.item_edit-mode .item__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.item .item_edit-mode .item__label {
+.item_edit-mode .item__label {
   display: none;
 }
 
