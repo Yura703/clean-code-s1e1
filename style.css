@@ -51,7 +51,8 @@
   outline: none;
 }
 
-.button {
+.new-task__button,
+.item__button {
   background: none;
   border: 0px;
   color: #888;
@@ -62,7 +63,8 @@
   outline: none;
 }
 
-.button:hover {
+.item__button:hover,
+.new-task__button:hover {
   color: #3a3a3a;
 }
 
@@ -101,7 +103,7 @@
   margin: 0 0 20px;
 }
 
-.task.input-text {
+.new-task__input-text {
   width: 318px;
 }
 
