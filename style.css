@@ -148,7 +148,8 @@
 }
 
 /* Completed */
-.completed-tasks .item__label {
+.completed-tasks
+.item__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -158,12 +159,14 @@
   display: none;
 }
 
-.item_edit-mode .item__input-text {
+.item_edit-mode
+.item__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.item_edit-mode .item__label {
+.item_edit-mode
+.item__label {
   display: none;
 }
 
