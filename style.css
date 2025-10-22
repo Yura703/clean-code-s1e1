@@ -153,12 +153,12 @@
 }
 
 /* Edit Task */
-.task[type=text] {
+.task[type=text]:not(#new-task) {
   display: none;
 }
 
 .edit-mode .task[type=text] {
-  display: inline-block;
+  display: inline-block !important;
   width: 224px;
 }
 
